@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI Clone</title>
+    <script src="https://kit.fontawesome.com/1efd8e9abd.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        .bgImage{
+            width: 100%;
+            height: 600px;
+            object-fit: cover;
+        }
+        .images{
+            width: 100%;
+            height: 476px;
+        }
+    </style>
+</head>
+<body>
+    <div class="overflow-x-hidden">
+        <!-- navbar -->
+        <nav class="w-full fixed z-10 bg-white">
+            <div class="max-w-[1500px] max-h-[56px] flex flex-row justify-between my-3 bg-[#ffffff]">
+                <div class="flex flex-row gap-12">
+                    <div>
+                        <img src="./assets/Xiaomi_Logo_2021.svg" width="32px" height="32px" alt="" class="ml-11">
+                    </div>
+                    <div class="flex flex-row gap-12 max-w-[629px] justify-center items-center font-sans text-[16px] leading-[19.2px] text-[#191919] ">
+                        <div><a href="#store">Store</a></div>
+                        <div><a href="#phone">Phone</a></div>
+                        <div><a href="#tv">TV & Smart Home</a></div>
+                        <div><a href="#laptop">Laptop & Tablet</a></div>
+                        <div><a href="#lifestyle">LifeStyle</a></div>
+                    </div>
+                </div>
+
+                <div class="flex flex-row gap-12 text-[16px] items-center leading-[19.2px] text-[#191919]">
+                    <div><a href="#discover">Discover</a></div>
+                    <div><a href="#support">Support</a></div>
+                    <div class="flex flex-row gap-12 items-center mr-5">
+                        <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+                        <i class="fa-solid fa-cart-shopping fa-xl"></i>
+                        <i class="fa-regular fa-user fa-xl"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- hero section -->
+        <section class="w-full relative">
+            <div class="w-full">
+                <img src="./assets/asset 0.jpeg" alt="" class="bgImage mt-14">
+            </div>
+            <div class="absolute top-48 left-[240px] text-white">
+                <h1 class="text-3xl font-normal my-9">200MP+OIS</h1>
+                <p class="text-lg">From <span class="text-4xl mr-3">₹17,999</span> <span class="text-2xl text-gray-300"><del>₹19,999</del></span></p>
+                <button class="bg-white text-black px-8 py-3 rounded-[14px] text-[19.2px] leading-[23.04px] mt-2">Buy Now</button>
+            </div>
+        </section>
+
+        <!-- feature section -->
+        <section class="bg-[#f7f7f7] pb-5">
+            <div class="grid grid-cols-2 gap-4 m-4">
+                <div class="col">
+                    <img src="./assets/asset 1.jpeg" alt="" class="images">
+                </div>
+                <div>
+                    <img src="./assets/asset 2.jpeg" alt="" class="images">
+                </div>
+                <div>
+                    <img src="./assets/asset 3.jpeg" alt="" class="images">
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <img src="./assets/asset 4.jpeg" width="359px" height="476px" alt="" class="images">
+                    </div>
+                    <div class="flex flex-col items-center gap-4 p-10">
+                        <h1 class="text-4xl font-bold">Stay In-Charge</h1>
+                        <p class="text-lg">Power Banks & Cables</p>
+                        <a class="text-lg text-red-500" href="#">Learn More</a>
+                        <img src="./assets/asset 13.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--New section  -->
+        <section class="bg-[#f7f7f7] pb-16">
+            <div class="grid grid-cols-2 gap-5 max-w-[1400px] bg-white p-3 m-auto">
+                <div class="relative">
+                    <img src="./assets/asset 7.jpeg" alt="">
+                    <img src="./assets/asset 6.png" alt="" width="60px" class="absolute top-[45%] left-[45%]">
+                </div>
+                <div class="flex flex-col items-center gap-4 p-10">
+                    <h2 class="text-red-500 text-lg font-bold">Share the Thrill</h2>
+                    <h1 class="text-4xl font-bold mb-5">Xiaomi 12 Pro</h1>
+                    <p class="text-lg text-center">What Happens when we send a xiaomi creator to the alps with <br> Xiaomi 12 Pro</p>
+                    <a class="text-lg hover:underline" href="#">Learn More <i class="fa-solid fa-chevron-right fa-xs"></i></a>
+                    <!-- <div class="flex flex-row items-center">
+                        <i class="fa-solid fa-square-chevron-right"></i>
+                        <i class="fa-solid fa-square-chevron-left"></i>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- feature section 2 -->
+        <section class="bg-[#f7f7f7]">
+            <div class="grid grid-cols-2 max-w-[1400px] h-[512px] gap-5 m-auto pt-10 bg-white">
+                <div class="flex flex-col items-center max-w-[687px] gap-10">
+                    <h1 class="text-4xl font-bold pt-10">XIAOMI CARE</h1>
+                    <div class="flex flex-row items-center gap-20 mt-10">
+                        <div class="flex flex-col items-center">
+                            <img src="./assets/asset 8.png" width="80px" alt="">
+                            <h1 class="text-lg mt-7">Mi Extended Warranty <i class="fa-solid fa-chevron-right fa-xs"></i></h1>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <img src="./assets/asset 9.png" width="80px"  alt="">
+                            <h1 class="text-lg mt-7">Mi Screen Protect <i class="fa-solid fa-chevron-right fa-xs"></i></h1>
+                        </div>
+                        <div class="flex flex-col items-center">
+                            <img src="./assets/asset 10.png" width="80px"  alt="">
+                            <h1 class="text-lg mt-7">Mi Complete Protect <i class="fa-solid fa-chevron-right fa-xs"></i></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-rows-2 place-items-center gap-5">
+                    <div class="flex flex-col items-center">
+                        <h1 class="text-4xl font-bold pb-5">Service Centres</h1>
+                        <p class="text-lg">We'll guide you to the best solution <i class="fa-solid fa-chevron-right"></i></p>
+                    </div>
+                    <div class="flex flex-col items-center gap-5">
+                        <h1 class="text-4xl font-bold">Mi Exchange</h1>
+                        <p class="text-lg">Renewed For Smoother Experience and Better value for Exchange <i class="fa-solid fa-chevron-right"></i></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer section -->
+        <section class="bg-[#191919]">
+            <div class="max-w-[1519px]">
+                <div class="flex flex-row text-white gap-40  p-14">
+                    <div class="max-w-[224px] flex flex-col -mr-24">
+                        <h1 class="text-lg font-bold mb-3 text-white">Support</h1>
+                        <div class="flex flex-col gap-3 text-gray-400 w-[180px]">
+                            <a class="hover:underline hover:text-white" href="#">Online Help</a>
+                            <a class="hover:underline hover:text-white" href="#">Customer Service</a>
+                            <a class="hover:underline hover:text-white" href="#">Shipping FAQ</a>
+                            <a class="hover:underline hover:text-white" href="#">Warranty</a>
+                            <a class="hover:underline hover:text-white" href="#">Mi Exchange</a>
+                            <a class="hover:underline hover:text-white" href="#">Bulk Orders</a>
+                            <a class="hover:underline hover:text-white" href="#">User Guide</a>
+                            <a class="hover:underline hover:text-white" href="#">Laptop Drivers</a>
+                            <a class="hover:underline hover:text-white" href="#">Mi Screen Protect</a>
+                            <a class="hover:underline hover:text-white" href="#">Mi Extended Warranty</a>
+                            <a class="hover:underline hover:text-white" href="#">Mi Complete Protect</a>
+                            <a class="hover:underline hover:text-white" href="#">Certification</a>
+                        </div>
+                    </div>
+                    <div class="flex flex-col -mr-24">
+                        <h1 class="text-lg font-semibold mb-3 text-white">SHOP AND LEARN</h1>
+                        <div class="flex flex-col gap-3 text-gray-400 w-[180px]">
+                            <a class="hover:underline hover:text-white" href="#">Xiaomi Phones</a>
+                            <a class="hover:underline hover:text-white" href="#">Redmi Phones</a>
+                            <a class="hover:underline hover:text-white" href="#">Tv's</a>
+                            <a class="hover:underline hover:text-white" href="#">Laptops and Tablets</a>
+                            <a class="hover:underline hover:text-white" href="#">Audio</a>
+                            <a class="hover:underline hover:text-white" href="#">Lifestyle</a>
+                            <a class="hover:underline hover:text-white" href="#">Smart Home</a>
+                        </div>
+                    </div>
+                    <div class="-mr-24">
+                        <h1 class="text-lg font-semibold mb-3 text-white">RETAIL STORE</h1>
+                        <div class="flex flex-col gap-3 text-gray-400 w-[180px]">
+                            <a class="hover:underline hover:text-white" href="#">Mi Home</a>
+                            <a class="hover:underline hover:text-white" href="#">Mi Authorized Store</a>
+                            <a class="hover:underline hover:text-white" href="#">Mi Store Franchise</a>
+                        </div>
+                    </div>
+                    <div class="-mr-20">
+                        <h1 class="text-lg font-semibold mb-3 text-white">ABOUT US</h1>
+                        <div class="flex flex-col gap-3 text-gray-400 w-[180px]">
+                            <a class="hover:underline hover:text-white" href="#">Xiaomi</a>
+                            <a class="hover:underline hover:text-white" href="#">Privacy Policy</a>
+                            <a class="hover:underline hover:text-white" href="#">User Agreement</a>
+                            <a class="hover:underline hover:text-white" href="#">Integrity & Compliance</a>
+                            <a class="hover:underline hover:text-white" href="#">Corporate Information</a>
+                            <a class="hover:underline hover:text-white" href="#">E-Waste Management</a>
+                            <a class="hover:underline hover:text-white" href="#">In The Press</a>
+                            <a class="hover:underline hover:text-white" href="#">Trust Center</a>
+                            <a class="hover:underline hover:text-white" href="#">Culture</a>
+                            <a class="hover:underline hover:text-white" href="#">Smartphone Quality</a>
+                            <a class="hover:underline hover:text-white" href="#">TV Quality</a>
+                            <a class="hover:underline hover:text-white" href="#">Service Quality</a>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-7">
+                        <h1 class="text-lg font-semibold text-white">Follow Mi</h1>
+                        <div class="flex flex-row gap-5">
+                            <i class="fa-brands fa-square-facebook fa-xl"></i>
+                            <i class="fa-brands fa-square-twitter fa-xl"></i>
+                            <i class="fa-brands fa-square-instagram fa-xl"></i>
+                        </div>
+                        <div class="flex flex-col gap-3">
+                            <h1 class="font-bold">Let's stay in touch</h1>
+                            <form action="">
+                                <input type="email" placeholder="Enter email address" class="w-full rounded-xl p-3 bg-[#191919] border text-lg">
+                                
+                            </form>
+                        </div>
+                        <div class="border rounded-xl">
+                            <div class="flex flex-row gap-5 p-5 border rounded-md">
+                                <img src="./assets/asset 11.png" width="80px" class="rounded-md" alt="">
+                                <div>
+                                    <h1 class="text-base font-bold">Get mi store app</h1>
+                                    <p class="text-gray-400">Scan for our up-to-date information for better shopping experience</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-row justify-center p-4">
+                                <img src="./assets/asset 12.svg" width="30px" alt="">
+                                <h1>Download on Google play</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border w-[1436px] ml-11 "></div>
+                <div class="flex flex-row justify-between mr-12 ml-12 mt-6 pb-6">
+                    <div class="flex flex-row gap-8">
+                        <h1 class="text-white">Copyright © 2010-2023 Xiaomi.All Rights Reserved</h1>
+                    <h1 class="text-white">Cookie Policy</h1>
+                    </div>
+                    <div>
+                        <h1 class="text-white">India / India</h1>
+                        <!-- <i class="fa-solid fa-globe "></i> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
